@@ -9,7 +9,7 @@ class ReviewSerializer(serializers.ModelSerializer):
             "email": {"write_only": True}
         }
         fields = (
-            'id', 'course', 'name', 'email', 'review', 'rating', 'created_at'
+            'id', 'course', 'name', 'email', 'comment', 'rating', 'created_at'
         )
 
 
